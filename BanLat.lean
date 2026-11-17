@@ -17,7 +17,8 @@ import BanLat.AMSpace.Max
 import BanLat.AMSpace.Maximal
 import BanLat.Atom
 import BanLat.Basic
-import BanLat.Bidual
+import BanLat.Bidual.Basic
+import BanLat.Bidual.Order
 import BanLat.BooleanAlgebras.Adjoin
 import BanLat.BooleanAlgebras.Atomless
 import BanLat.BooleanAlgebras.Basic
@@ -75,6 +76,7 @@ import BanLat.Examples.Lp.OrderContinuous
 import BanLat.Examples.Lp.Sublattice
 import BanLat.Examples.Lp.Subspaces.Gaussian
 import BanLat.Examples.Lp.Subspaces.Stable
+import BanLat.Examples.Lp.WeakCompactness
 import BanLat.Examples.Lp.WeakUnit
 import BanLat.Examples.MofK.ALspace
 import BanLat.Examples.MofK.Atom
@@ -94,6 +96,7 @@ import BanLat.FunctionalCalculus
 import BanLat.Functionals.Positive.Separation
 import BanLat.Functionals.StrictlyPositive.QuasiInteriorPoint
 import BanLat.Functionals.StrictlyPositive.WeakOrderUnit
+import BanLat.KBSpace
 import BanLat.L1repr.Basic
 import BanLat.L1repr.HowItSeats
 import BanLat.L1repr.OrderContinuous
@@ -126,6 +129,7 @@ import BanLat.OrderContinuous.Decomposition
 import BanLat.OrderContinuous.Linf
 import BanLat.OrderContinuous.MeyerNieberg
 import BanLat.OrderContinuous.Nakano
+import BanLat.OrderContinuous.OrderIntervalCompactness
 import BanLat.OrderDense
 import BanLat.OrderUnit
 import BanLat.OrderUnit.CountableChainCondition

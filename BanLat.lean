@@ -15,6 +15,7 @@ import BanLat.AMSpace.Dual
 import BanLat.AMSpace.Kakutani
 import BanLat.AMSpace.Max
 import BanLat.AMSpace.Maximal
+import BanLat.AlmostOrderBounded
 import BanLat.Atom
 import BanLat.Basic
 import BanLat.Bidual.Basic
@@ -59,8 +60,10 @@ import BanLat.Examples.CofK.Basic
 import BanLat.Examples.CofK.Complex
 import BanLat.Examples.CofK.Dual
 import BanLat.Examples.CofK.FunctionalCalculus
+import BanLat.Examples.Ellp.Schur
 import BanLat.Examples.Ellp.Sum
 import BanLat.Examples.Ellp.WeakUnit
+import BanLat.Examples.Lp.AlmostOrderBounded
 import BanLat.Examples.Lp.Amalgamation
 import BanLat.Examples.Lp.Atom
 import BanLat.Examples.Lp.Basic
@@ -70,6 +73,7 @@ import BanLat.Examples.Lp.Classification.Homogeneous
 import BanLat.Examples.Lp.CountableChainCondition
 import BanLat.Examples.Lp.Counting
 import BanLat.Examples.Lp.DensityCharacter
+import BanLat.Examples.Lp.DunfordPettis
 import BanLat.Examples.Lp.MeasureAlgebra.Indicators
 import BanLat.Examples.Lp.MeasureAlgebra.MeasureAlgebra
 import BanLat.Examples.Lp.MeasureAlgebra.MeasureAlgebraMap

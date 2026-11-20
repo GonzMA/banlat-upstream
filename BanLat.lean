@@ -60,6 +60,7 @@ import BanLat.Examples.CofK.Basic
 import BanLat.Examples.CofK.Complex
 import BanLat.Examples.CofK.Dual
 import BanLat.Examples.CofK.FunctionalCalculus
+import BanLat.Examples.Ellp.Basic
 import BanLat.Examples.Ellp.Schur
 import BanLat.Examples.Ellp.Sum
 import BanLat.Examples.Ellp.WeakUnit
@@ -70,6 +71,7 @@ import BanLat.Examples.Lp.Basic
 import BanLat.Examples.Lp.ChangeDensity
 import BanLat.Examples.Lp.Classification.Atomic
 import BanLat.Examples.Lp.Classification.Homogeneous
+import BanLat.Examples.Lp.Convergence
 import BanLat.Examples.Lp.CountableChainCondition
 import BanLat.Examples.Lp.Counting
 import BanLat.Examples.Lp.DensityCharacter
@@ -142,6 +144,7 @@ import BanLat.OrderUnit
 import BanLat.OrderUnit.CountableChainCondition
 import BanLat.PConvexity
 import BanLat.Pi
+import BanLat.Preliminaries.ContinuousLinearMap
 import BanLat.Preliminaries.DensityCharacter
 import BanLat.Preliminaries.EberleinSmulian
 import BanLat.Preliminaries.HasNoAtoms
@@ -166,6 +169,9 @@ import BanLat.QuasiInteriorPoint
 import BanLat.QuasiNormed.Basic
 import BanLat.QuasiNormed.Complete
 import BanLat.QuasiNormed.Lattice
+import BanLat.QuasiNormed.Maps.Basic
+import BanLat.QuasiNormed.Maps.Isometry
+import BanLat.QuasiNormed.Maps.LinearMap
 import BanLat.QuasiNormed.Topology
 import BanLat.Quotient
 import BanLat.Reflexive.Basic

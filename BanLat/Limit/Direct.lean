@@ -8,9 +8,10 @@ import Mathlib.Algebra.Colimit.DirectLimit
 /-!
 # Direct limits of vector lattices
 
-The direct limit of a directed system of vector lattices is a vector lattice and satisfies
+The direct limit (as vector) of a directed system of vector lattices can be equipped with a
+vector lattice structure in such a way that it satisfies
 the universal property for vector lattice homomorphisms. If the vector lattices are Archimedean
-and the connecting homomorphisms are injective, their direct limit is Archimedean.
+and the connecting homomorphisms are injective, then their direct limit is also Archimedean.
 -/
 
 universe u
@@ -66,7 +67,7 @@ private noncomputable instance directLimitOrderedAddMonoid :
     exact sup_eq_right.mp ((h a b c).trans (congrArg (· + c) (sup_eq_right.mpr hab)))
 
 /-- The real vector lattice structure on the direct limit. -/
-private noncomputable instance directLimitVectorLattice : VectorLattice (DirectLimit G f) where
+noncomputable instance directLimitVectorLattice : VectorLattice (DirectLimit G f) where
   smul_le_smul_of_nonneg_left := by
     intro r hr a b hab
     have h (a b : DirectLimit G f) : (r • a) ⊔ (r • b) = r • (a ⊔ b) := by

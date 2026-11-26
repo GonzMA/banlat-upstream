@@ -110,7 +110,7 @@ import BanLat.L1repr.HowItSeats
 import BanLat.L1repr.OrderContinuous
 import BanLat.L1repr.Positive
 import BanLat.LLexpr
-import BanLat.Limits.DirectLimit
+import BanLat.Limit.Direct
 import BanLat.LocallySolid.Basic
 import BanLat.LocallySolid.Completion
 import BanLat.LocallySolid.Lebesgue
